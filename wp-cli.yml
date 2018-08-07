@@ -1,1 +1,15 @@
 path: public_html
+  custom:
+    admin_user: admin
+    admin_password: password
+    title: Analytica Dev Site
+    xipio: true
+    version: latest
+    locale: en_US
+    plugins:
+      - qazana
+      - kirki
+    themes:
+      - { theme: "https://github.com/FrankM1/analytica/archive/master.zip", force: true, activate: true }
+    delete_default_plugins: true
+    delete_default_themes: true
